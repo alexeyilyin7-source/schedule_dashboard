@@ -1,0 +1,145 @@
+﻿/* assets/style.css */
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F0F2F5;
+}
+
+.header {
+    background: linear-gradient(90deg, #1E3C72 0%, #2A5298 100%);
+    height: 200px;
+    padding: 16px 0 0 0;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-emoji {
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 600px;
+    font-size: 16px;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.menu {
+    height: auto;
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 20px 24px;
+    margin: -50px auto 30px auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+}
+
+.menu-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #2A5298;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.Select-control, .DateRangePickerInput {
+    width: 250px;
+    border-radius: 4px !important;
+}
+
+.dash-tabs {
+    margin-top: 0;
+}
+
+.dash-tab {
+    font-size: 16px;
+    padding: 12px 24px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    color: #495057;
+}
+
+.dash-tab--selected {
+    background-color: #FFFFFF;
+    color: #2A5298;
+    font-weight: bold;
+    border-top: 3px solid #2A5298;
+}
+
+.tab-content {
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.data-table th {
+    background-color: #2A5298;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+.data-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.data-table tr:hover {
+    background-color: #f1f3f5;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #6c757d;
+    font-size: 14px;
+    border-top: 1px solid #dee2e6;
+    margin-top: 40px;
+}
